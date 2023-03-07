@@ -1,0 +1,103 @@
+.PoUmnomu
+{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin:0 100px;
+  align-self: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-image: url(../app/images/back.jpg);
+}
+.headerStyle
+{
+  text-align: center;
+  color: #474545;
+}
+.textStyle
+{
+  margin: 20px;
+}
+.MyForm {
+  background-color: white;
+  padding: 20px;
+  width: 230px;
+  border-radius: 10px;
+  margin: 100px 0 100px 0;
+}
+
+button {
+  padding:15px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width: 220px;
+  margin: 10px;
+}
+
+.myButton
+{
+  padding:15px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width: 220px;
+}
+
+input[type=text] {
+  padding:10px;
+  border-radius:10px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+div
+{
+  margin-bottom: 10px;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #dddddd;
+}
+.table td{
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: center;
+  background: white;
+}
+
+.myDiv
+{
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  margin: 100px;
+  height: 330px;
+  overflow: auto;
+}
+
+.MyCrit {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  width: 250px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  text-align: center;
+}
+

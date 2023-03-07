@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\back.6b4a498643a88456.jpg",
+      "PackagePath": "staticwebassets\\back.6b4a498643a88456.jpg"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\main.3bf3480926a10ec3.js",
+      "PackagePath": "staticwebassets\\main.3bf3480926a10ec3.js"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\polyfills.c3aad799f638edfd.js",
+      "PackagePath": "staticwebassets\\polyfills.c3aad799f638edfd.js"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\runtime.5595b722a69126f1.js",
+      "PackagePath": "staticwebassets\\runtime.5595b722a69126f1.js"
+    },
+    {
+      "Id": "C:\\Users\\origi\\Desktop\\Projects\\ReverseTask\\Backend\\ReverseTask\\wwwroot\\styles.ef46db3751d8e999.css",
+      "PackagePath": "staticwebassets\\styles.ef46db3751d8e999.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ReverseTask.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ReverseTask.props",
+      "PackagePath": "build\\ReverseTask.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ReverseTask.props",
+      "PackagePath": "buildMultiTargeting\\ReverseTask.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ReverseTask.props",
+      "PackagePath": "buildTransitive\\ReverseTask.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

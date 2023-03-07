@@ -1,0 +1,78 @@
+<h1 class="headerStyle">Обратная задача кинетики</h1>
+<div class="container">
+  <form [formGroup]="form" class="MyForm">
+    <h3>Добавление концентраций</h3>
+    <div>
+      <p>C1A</p>
+      <input formControlName="C1A" type="text"/>
+    </div>
+    <div>
+      <p>C2A</p>
+      <input formControlName="C2A" type="text"/>
+    </div>
+    <div>
+      <p>C1C</p>
+      <input formControlName="C1C" type="text"/>
+    </div>
+    <div>
+      <p>C2C</p>
+      <input formControlName="C2C" type="text">
+    </div>
+    <div>
+      <button (click)="Add()" type="button">Добавить</button>
+      <button type="reset">Очистить</button>
+    </div>
+  </form>
+  <div>
+    <div class="myDiv">
+      <h3 class="Mytext">Таблица концентраций</h3>
+      <table class="table">
+        <tr>
+          <th>C1A</th>
+          <th>C2A</th>
+          <th>C1C</th>
+          <th>C2C</th>
+        </tr>
+        <tr *ngFor="let concentration of concentrationService.Concentrations; let i=index">
+          <td>
+            <p>{{concentration.C1A}}</p>
+          </td>
+          <td>
+            <p>{{concentration.C2A}}</p>
+          </td>
+          <td>
+            <p>{{concentration.C1C}}</p>
+          </td>
+          <td>
+            <p>{{concentration.C2C}}</p>
+          </td>
+      </table>
+    </div>
+    <div class="PoUmnomu">
+      <button (click)="Clear()" class="myButton">Очистить</button>
+      <button (click)="Save()" class="myButton" type="button">Сохранить</button>
+    </div>
+  </div>
+  <form [formGroup]="formCrit" class="MyCrit">
+    <h3>Критерий остановки Sост</h3>
+    <input formControlName="stopCriterion" type="text"/>
+    <div>
+      <button (click)="CalculateCriterion()" type="button">Расчёт критерия адекватности</button>
+    </div>
+    <div>{{myText}}</div>
+  </form>
+</div>
+<h2 class="headerStyle">Технологическая справка</h2>
+<div class="textStyle">
+  <p>Промышленная реализация химического процесса требует детального исследования его механизма и установления кинетических параметров отдельных стадий. В химической кинетике такие задачи называют обратными.</p>
+  <p>Суть решения обратных задач состоит в поиске таких значений констант скорости реакции, чтобы полученные путём расчёта кинетические кривые лучшим образом аппроксимировали экспериментальные данные. Известен механизм реакции, имеются экспериментальные и расчётные данные по кинетике химических реакций. Полученные в ходе решения обратных задач значения кинетических параметров позволяют проводить расчёты значений концентраций веществ наиболее точно.<p>Процесс расчёта новых констант скоростей последовательно продолжается до тех пор, пока не будет достигнута заданная точность критерия адекватности S. Данная программа позволяет пользователю рассчитывать критерий адекватности для введённых экспериментальных и расчётных значений концентраций двух компонентов и показывает стоит ли продолжать оптимизировать константы скорости химической реакции.</p>
+  <h3>Условные обозначения</h3>
+  <ul>
+    <li>C1A – экспериментальная концентрация компонента A;</li>
+    <li>C2A – расчётная концентрация компонента A;</li>
+    <li>C1C – экспериментальная концентрация компонента С;</li>
+    <li>C2С – расчётная концентрация компонента С;</li>
+    <li>Sост – критерий остановки процесса оптимизации констант скоростей;</li>
+    <li>S – критерий адекватности.</li>
+  </ul>
+</div>
